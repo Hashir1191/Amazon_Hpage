@@ -106,21 +106,25 @@ span{
 }
 .hero-section{
     background-image: url("file:///D:/Downloads/Car_Acc_3000x1200._CB584942067_.jpg");
-    background-size: cover;
+    background-size: 100%;
+    width: 100%;
+    /*background-repeat: no-repeat;*/
     height: 100%;
 }
 .shop-section{ 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .box{
-    margin-top: 20%;
+    margin-top: 15%;
     margin-right: 5px;
+    margin-left: 5px;
     font-size: 1rem;
     width: 23%;
-    height: 400px;
-    border: 2px solid black;
-    padding: 20px 0px 15px;
+    height: 380px;
+    padding: 20px 5px 15px;
+    background-color: white;
 }
 .box-content{
     margin-top: 2;
